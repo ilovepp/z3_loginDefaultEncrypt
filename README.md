@@ -6,7 +6,7 @@ Vxworks-5.x、6.x使用函数loginDefaultEncrypt对明文密码进行哈希。�
 Z3是微软研究院开发的一款约束求解器（SMT），用来检查一组约束公式的可满足性（satisfiability）并求解出符合约束条件的解。Z3在学术界应用广泛，例如符号执行，智能fuzz，路径分析等。目前Z3对python提供了API接口，使用十分方便。Z3的安装和介绍见参考资料。
 
 ## 0x02使用说明
-z3Cracker <ciphertext> <password_len>
+z3Cracker ciphertext password_len
 
   ciphertext: password string that has been hashed
   
